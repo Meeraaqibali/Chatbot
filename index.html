@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <title>Chatbot in JavaScript | CodingNepal</title>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+<script src="script.js">defer</script>
+</head>
+<body>
+    <button class="chatbot_toggler">
+        <span class="fa-regular fa-message"></span>
+        <span class="fa-solid fa-xmark"></span>
+    </button>
+    <div class="chatbot">
+        <header>
+            <h2>Chatbot</h2>
+            <span class="close_btn fa-solid fa-xmark"></span>
+        </header>
+        <ul class="chatbox">
+            <li class="chat incoming">
+                <span class="fa-solid fa-robot"></span>
+                <p>Hi! there 👋 <br> How can I help you today? </p>
+            </li>
+        </ul>
+        <div class="chat_input">
+            <textarea placeholder="Enter a message..." required></textarea>
+            <span id="send_btn" class="fas fa-share"></span>
+        </div>
+    </div>
+</body>
+</html>
